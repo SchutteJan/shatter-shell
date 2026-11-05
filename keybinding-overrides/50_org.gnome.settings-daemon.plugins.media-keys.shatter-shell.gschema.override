@@ -1,3 +1,3 @@
 [org.gnome.settings-daemon.plugins.media-keys]
-screensaver = ['<Super>Escape', '<Super>l']
+screensaver = ['<Super>Escape']
 rotate-video-lock-static = ['XF86RotationLockToggle']

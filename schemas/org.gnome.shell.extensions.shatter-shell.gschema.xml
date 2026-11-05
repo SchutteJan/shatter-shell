@@ -87,22 +87,22 @@
 
         <!-- Focus Shifting -->
         <key type="as" name="focus-left">
-            <default><![CDATA[['<Super>Left','<Super>KP_Left']]]></default>
+            <default><![CDATA[['<Super>Left','<Super>KP_Left','<Super>h']]]></default>
             <summary>Focus left window</summary>
         </key>
 
         <key type="as" name="focus-down">
-            <default><![CDATA[['<Super>Down','<Super>KP_Down']]]></default>
+            <default><![CDATA[['<Super>Down','<Super>KP_Down','<Super>j']]]></default>
             <summary>Focus down window</summary>
         </key>
 
         <key type="as" name="focus-up">
-            <default><![CDATA[['<Super>Up','<Super>KP_Up']]]></default>
+            <default><![CDATA[['<Super>Up','<Super>KP_Up','<Super>k']]]></default>
             <summary>Focus up window</summary>
         </key>
 
         <key type="as" name="focus-right">
-            <default><![CDATA[['<Super>Right','<Super>KP_Right']]]></default>
+            <default><![CDATA[['<Super>Right','<Super>KP_Right','<Super>l']]]></default>
             <summary>Focus right window</summary>
         </key>
 
@@ -150,22 +150,22 @@
 
 
         <key type="as" name="tile-move-left">
-            <default><![CDATA[['Left','KP_Left']]]></default>
+            <default><![CDATA[['Left','KP_Left','h']]]></default>
             <summary>Move window left</summary>
         </key>
 
         <key type="as" name="tile-move-down">
-            <default><![CDATA[['Down','KP_Down']]]></default>
+            <default><![CDATA[['Down','KP_Down','j']]]></default>
             <summary>Move window down</summary>
         </key>
 
         <key type="as" name="tile-move-up">
-            <default><![CDATA[['Up','KP_Up']]]></default>
+            <default><![CDATA[['Up','KP_Up','k']]]></default>
             <summary>Move window up</summary>
         </key>
 
         <key type="as" name="tile-move-right">
-            <default><![CDATA[['Right','KP_Right']]]></default>
+            <default><![CDATA[['Right','KP_Right','l']]]></default>
             <summary>Move window right</summary>
         </key>
 
@@ -196,43 +196,43 @@
 
         <!-- Resize in normal direction -->
         <key type="as" name="tile-resize-left">
-            <default><![CDATA[['<Shift>Left','<Shift>KP_Left']]]></default>
+            <default><![CDATA[['<Shift>Left','<Shift>KP_Left','<Shift>h']]]></default>
             <summary>Resize window left</summary>
         </key>
 
         <key type="as" name="tile-resize-down">
-            <default><![CDATA[['<Shift>Down','<Shift>KP_Down']]]></default>
+            <default><![CDATA[['<Shift>Down','<Shift>KP_Down','<Shift>j']]]></default>
             <summary>Resize window down</summary>
         </key>
 
         <key type="as" name="tile-resize-up">
-            <default><![CDATA[['<Shift>Up','<Shift>KP_Up']]]></default>
+            <default><![CDATA[['<Shift>Up','<Shift>KP_Up','<Shift>k']]]></default>
             <summary>Resize window up</summary>
         </key>
 
         <key type="as" name="tile-resize-right">
-            <default><![CDATA[['<Shift>Right','<Shift>KP_Right']]]></default>
+            <default><![CDATA[['<Shift>Right','<Shift>KP_Right','<Shift>l']]]></default>
             <summary>Resize window right</summary>
         </key>
 
         <!-- Swap windows -->
         <key type="as" name="tile-swap-left">
-            <default><![CDATA[['<Primary>Left','<Primary>KP_Left']]]></default>
+            <default><![CDATA[['<Primary>Left','<Primary>KP_Left','<Primary>h']]]></default>
             <summary>Swap window left</summary>
         </key>
 
         <key type="as" name="tile-swap-down">
-            <default><![CDATA[['<Primary>Down','<Primary>KP_Down']]]></default>
+            <default><![CDATA[['<Primary>Down','<Primary>KP_Down','<Primary>j']]]></default>
             <summary>Swap window down</summary>
         </key>
 
         <key type="as" name="tile-swap-up">
-            <default><![CDATA[['<Primary>Up','<Primary>KP_Up']]]></default>
+            <default><![CDATA[['<Primary>Up','<Primary>KP_Up','<Primary>k']]]></default>
             <summary>Swap window up</summary>
         </key>
 
         <key type="as" name="tile-swap-right">
-            <default><![CDATA[['<Primary>Right','<Primary>KP_Right']]]></default>
+            <default><![CDATA[['<Primary>Right','<Primary>KP_Right','<Primary>l']]]></default>
             <summary>Swap window right</summary>
         </key>
 

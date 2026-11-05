@@ -92,6 +92,8 @@ export const WelcomePage = GObject.registerClass({
 
         try {
             const wmKeys = new Gio.Settings({ schema_id: 'org.gnome.desktop.wm.keybindings' });
+            // Minimize window: disable <Super>h
+            set(wmKeys, 'minimize', []);
             // Maximize window: disable <Super>Up
             set(wmKeys, 'maximize', []);
             // Restore window: disable <Super>Down, retain <Alt>F5
@@ -127,7 +129,7 @@ export const WelcomePage = GObject.registerClass({
         try {
             const mediaKeys = new Gio.Settings({ schema_id: 'org.gnome.settings-daemon.plugins.media-keys' });
             // Lock screen: changed from <Super>l
-            set(mediaKeys, 'screensaver', ['<Super>Escape', '<Super>l']);
+            set(mediaKeys, 'screensaver', ['<Super>Escape']);
             // Toggle automatic screen orientation: disable <Super>o, retain XF86RotationLockToggle
             set(mediaKeys, 'rotate-video-lock-static', ['XF86RotationLockToggle']);
         } catch (e) {
